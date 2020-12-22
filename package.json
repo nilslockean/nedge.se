@@ -1,0 +1,27 @@
+{
+  "name": "nedge.se",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync start --server \"docs\" --files \"docs\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilslockean/nedge.se.git"
+  },
+  "keywords": [
+    "elemental",
+    "github-pages"
+  ],
+  "author": "Nils Lockean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilslockean/nedge.se/issues"
+  },
+  "homepage": "https://github.com/nilslockean/nedge.se#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
