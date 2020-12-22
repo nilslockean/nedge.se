@@ -1,5 +1,9 @@
 :root {
   --system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  --cooper: cooper-black-std, serif;
+
+  --body-font: var(--system-font);
+  --display-font: var(--cooper);
 
   --mint-cream: #f4fffa;
   --phtalo-green: #193521;
@@ -80,11 +84,13 @@ footer a:hover, footer a:active, footer a:focus {
 
 h1, h2 {
   color: var(--main-heading-color);
+  font-family: var(--display-font);
   line-height: 1;
 }
 
 h1 {
   font-size: 3rem;
+  font-style: italic;
 }
 h1 + .tagline {
   font-size: 1.5rem;
@@ -92,6 +98,15 @@ h1 + .tagline {
   color: var(--main-heading-color);
   line-height: 1.2;
   margin-bottom: 1rem;
+  font-family: var(--display-font);
+}
+
+h1 .logo-type {
+  --stroke: .2rem;
+
+  text-shadow: var(--stroke) calc(1.5 * var(--stroke)) 0 var(--main-heading-color);
+  -webkit-text-stroke: var(--stroke) var(--main-heading-color);
+  -webkit-text-fill-color: var(--main-bg-color);
 }
 
 a, a:link, a:visited {
@@ -145,18 +160,12 @@ address {
   border: 0; 
 }
 
-/* Medium Device Breakpoint */
-@media (min-width: 720px) {
-  /* html {
-    font-size: calc(var(--base-font-size) * 1.15);
-  } */
-}
+/* Medium Device Breakpoint
+@media (min-width: 720px) {}
+*/
 
 /* Large Device Breakpoint */
 @media (min-width: 960px) {
-  /* html {
-    font-size: calc(var(--base-font-size) * 1.25);
-  } */
   h1 {
     font-size: 4rem;
   }
