@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/nilslockean/nedge.se#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.13"
+    "browser-sync": "^2.26.14",
+    "prettier": "^2.3.0"
   }
 }
