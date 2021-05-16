@@ -1,4 +1,4 @@
-# Nedges hemsida har inget extra fluff
+# En hemsida utan extra fluff
 
 **Välkommen till GitHub!** Här ligger källkoden till Nedges hemsida
 ([och många andras för den delen](https://github.com/customer-stories?type=enterprise))
@@ -120,5 +120,5 @@ kr per år, sparar vi 1 600 kr som varje år kan gå till mycket roligare saker 
 Klart du vill. **Skicka ett mail till [nils@lockean.se](mailto:nils@lockean.se)**.
 
 Allt gott,  
---  
+\--  
 Nils Lockean
