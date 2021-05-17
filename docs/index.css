@@ -14,9 +14,9 @@
   --main-link-color: var(--main-color);
   --main-link-hover-color: var(--main-heading-color);
 
-  --footer-bg-color: var(--main-heading-color);
-  --footer-color: var(--main-bg-color);
-  --footer-link-color: var(--main-bg-color);
+  --footer-bg-color: var(--main-bg-color);
+  --footer-color: var(--main-color);
+  --footer-link-color: var(--main-link-color);
 
   --base-padding: 1rem;
   --base-font-size: 100%;
@@ -75,8 +75,7 @@ main {
   max-width: calc(var(--body-width) * 1.5);
 }
 
-header,
-footer {
+header {
   margin-top: 3rem;
 }
 
@@ -85,6 +84,7 @@ footer {
   color: var(--footer-color);
   overflow: hidden;
   padding: var(--base-padding);
+  margin-top: 15vh;
 }
 
 footer .footer-inner {
