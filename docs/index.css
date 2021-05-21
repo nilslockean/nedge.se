@@ -233,20 +233,37 @@ section {
 
 @supports (display: grid) {
   .grid {
+    --width: calc(100vw - (2 * var(--base-padding)));
+    width: calc(var(--width));
+    position: relative;
+    left: calc((var(--width) * -0.5) + 50%);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
   }
 
   @media (min-width: 880px) {
+    .grid {
+      --width: calc(100vw - (4 * var(--base-padding)));
+    }
     .grid > .card {
       min-height: 300px;
     }
   }
 
   @media (min-width: 1220px) {
+    .grid {
+      --width: calc(100vw - (6 * var(--base-padding)));
+    }
+
     .grid > .card {
       min-height: 400px;
+    }
+  }
+
+  @media (min-width: 2200px) {
+    .grid {
+      --width: 2000px;
     }
   }
 }
