@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '../tailwind.css';
 	import Header from '$lib/header.svelte';
 	import NoScript from '$lib/noscript.svelte';
 	const year = new Date().getFullYear();
