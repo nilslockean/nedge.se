@@ -2,7 +2,8 @@
 	import Logo from '$lib/logo.svelte';
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
-	let visible = false;
+	export let transition = true;
+	let visible = !transition;
 	onMount(() => {
 		visible = true;
 	});
@@ -11,7 +12,7 @@
 
 <header class="container">
 	<h1>
-		<Logo />
+		<Logo {transition} />
 	</h1>
 	{#if visible}
 		<div transition:fly={{ delay: 1000, y: 30 }}>

@@ -4,15 +4,16 @@
 	let clazz = '';
 	export { clazz as class };
 	export let title = 'Nedge AB';
+	export let transition = true;
 
 	const polygonPoints = ['5.5,2 23,3.8 23,21.2 ', '26.5,30 9,28.2 9,10.8 '];
 
-	let visible = false;
+	let visible = !transition;
 	onMount(() => {
 		visible = true;
 	});
 
-	let solid = false;
+	let solid = visible;
 	const handleDrawEnd = () => {
 		solid = true;
 	};
