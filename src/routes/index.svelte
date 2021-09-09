@@ -13,7 +13,7 @@
 <Header>
 	<p>
 		Nedge AB har funnits sedan 2015 och drivs av Lina och Nils Lockean. Vi bedriver verksamhet inom
-		webbutveckling, copywriting och klippklättring.
+		webbutveckling, copywriting, möbelrenovering och klippklättring.
 	</p>
 </Header>
 
