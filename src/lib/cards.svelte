@@ -4,6 +4,32 @@
 
 	const cards: CardInfo[] = [
 		{
+			name: 'Onum',
+			job: 'Möbelrenovering',
+			url: new URL('https://onum.se'),
+			style: `
+				--main-bg-color: #f3ebde;
+				--main-color: #6c2334;
+				--main-link-color: #6c2334;
+				--main-link-hover-color: #000;
+				--main-heading-color: var(--main-color);
+				--border-width: 0px;
+			`
+		},
+		{
+			name: 'Dubbel8',
+			job: 'Reko klätterubblevelser på Skånes klippor',
+			url: new URL('https://dubbel8.se'),
+			style: `
+				--main-bg-color: #fc0;
+				--main-color: #000;
+				--main-link-color: #224;
+				--main-link-hover-color: #000;
+				--main-heading-color: var(--main-color);
+				--border-width: 0px;
+			`
+		},
+		{
 			name: 'Lina Lockean',
 			title: 'VD',
 			job: 'Copywriting',
@@ -34,42 +60,8 @@
 			job: 'Webbutveckling',
 			url: new URL('https://se.linkedin.com/in/felixhofwimmer'),
 			linkText: 'LinkedIn'
-		},
-		{
-			name: 'Dubbel8',
-			job: 'Reko klätterubblevelser på Skånes klippor',
-			url: new URL('https://dubbel8.se'),
-			style: `
-				--main-bg-color: #fc0;
-				--main-color: #000;
-				--main-link-color: #224;
-				--main-link-hover-color: #000;
-				--main-heading-color: var(--main-color);
-				--border-width: 0px;
-			`
-		},
-		{
-			name: 'Onum',
-			job: 'Möbelrenovering',
-			url: new URL('https://onum.se'),
-			style: `
-				--main-bg-color: #f3ebde;
-				--main-color: #6c2334;
-				--main-link-color: #6c2334;
-				--main-link-hover-color: #000;
-				--main-heading-color: var(--main-color);
-				--border-width: 0px;
-			`
 		}
 	];
-
-	// <div class="card onum">
-	//   <div>
-	//     <h2>Onum</h2>
-	//     <p>Möbelrenovering</p>
-	//   </div>
-	//   <a href="https://onum.se">onum.se</a>
-	// </div>
 </script>
 
 <section>
