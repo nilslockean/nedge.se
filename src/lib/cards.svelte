@@ -58,8 +58,15 @@
 		{
 			name: 'Felix Hofwimmer',
 			job: 'Webbutveckling',
-			url: new URL('https://se.linkedin.com/in/felixhofwimmer'),
-			linkText: 'LinkedIn'
+			url: new URL('https://hofwimmer.com'),
+			style: `
+				--main-bg-color: rgb(243,214,198);
+				--main-color: rgb(66,71,102);
+				--main-link-color: rgb(215,76,72);
+				--main-link-hover-color: var(--main-color);
+				--main-heading-color: var(--main-color);
+				--border-width: 0;
+			`
 		}
 	];
 </script>
