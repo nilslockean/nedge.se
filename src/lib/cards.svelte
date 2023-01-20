@@ -3,19 +3,19 @@
 	import Card from './card.svelte';
 
 	const cards: CardInfo[] = [
-		{
-			name: 'Onum',
-			job: 'Möbelrenovering',
-			url: new URL('https://onum.se'),
-			style: `
-				--main-bg-color: #f3ebde;
-				--main-color: #6c2334;
-				--main-link-color: #6c2334;
-				--main-link-hover-color: #000;
-				--main-heading-color: var(--main-color);
-				--border-width: 0px;
-			`
-		},
+		// {
+		// 	name: 'Onum',
+		// 	job: 'Möbelrenovering',
+		// 	url: new URL('https://onum.se'),
+		// 	style: `
+		// 		--main-bg-color: #f3ebde;
+		// 		--main-color: #6c2334;
+		// 		--main-link-color: #6c2334;
+		// 		--main-link-hover-color: #000;
+		// 		--main-heading-color: var(--main-color);
+		// 		--border-width: 0px;
+		// 	`
+		// },
 		{
 			name: 'Dubbel8',
 			job: 'Reko klätterubblevelser på Skånes klippor',
@@ -29,20 +29,20 @@
 				--border-width: 0px;
 			`
 		},
-		{
-			name: 'Lina Lockean',
-			title: 'VD',
-			job: 'Copywriting',
-			url: new URL('https://linalockean.se/'),
-			style: `
-				--main-bg-color: #b0bce8;
-				--main-color: #870c25;
-				--main-link-color: var(--main-color);
-				--main-link-hover-color: #401;
-				--main-heading-color: var(--main-color);
-				--border-width: 0px;
-			`
-		},
+		// {
+		// 	name: 'Lina Lockean',
+		// 	title: 'VD',
+		// 	job: 'Copywriting',
+		// 	url: new URL('https://linalockean.se/'),
+		// 	style: `
+		// 		--main-bg-color: #b0bce8;
+		// 		--main-color: #870c25;
+		// 		--main-link-color: var(--main-color);
+		// 		--main-link-hover-color: #401;
+		// 		--main-heading-color: var(--main-color);
+		// 		--border-width: 0px;
+		// 	`
+		// },
 		{
 			name: 'Nils Lockean',
 			job: 'Webbutveckling',
